@@ -5,7 +5,9 @@ body{
 header h1{
     font-size: 7em;
     text-align: center;
-    margin-bottom: 0; 
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #478778;
 }
 header img{
     width:600px;
@@ -15,6 +17,7 @@ header img{
 h2{
     font-size: 3em;
     text-align: center;
+    color: #478778;
 }
 main{
     font-family: 'nothing you could do', serif;
@@ -27,4 +30,31 @@ main{
 }
 #text{
     font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.nav_link{
+    text-decoration: none;
+}
+.nav_img{
+    width: 200px;
+    display:block;
+    margin-bottom: 10px;
+}
+.nav_img:hover{
+    transform: rotate(5deg);
+}
+.nav_text{
+    text-align: center;
+    margin-top: 0;
+    font-size:2em;
+    color: #478778;
+}
+.nav_text:hover{
+    color:#D8A373;
 }
